@@ -22,7 +22,7 @@ class PointTests {
     void add() {
         // ============ Equivalence Partitions Tests ==============
         // T01: Test that point plus vector is calculated correctly
-        assertEquals(p1.add(new Vector(-1, -2, -3)), Point.ZERO,
+        assertEquals(p1.add(new Vector(-1, -2, -3)), new Point(0,0,0),
                 "Point add function gave wrong answer");
     }
 
@@ -35,6 +35,11 @@ class PointTests {
         // T01: Test that point subtract another point is calculated correctly
         assertEquals((p1.subtract(p2)), new Vector(-3, -3, -3),
                 "Point subtract function gives wrong answer.");
+        // =============== Boundary Values Tests ==================
+        // T11: Test that point subtract the same point throws exception
+        assertThrows(
+                IllegalArgumentException.class, () -> p1.subtract(p1),
+                "subtract for point on same point does not throw an exception");
     }
 
     /**
@@ -44,8 +49,12 @@ class PointTests {
     void distanceSquared() {
         // ============ Equivalence Partitions Tests ==============
         // T01: Test that the squared distance between two points is calculated correctly
-        assertEquals(14, p1.distanceSquared(Point.ZERO), 0.00001,
+        assertEquals(14, p1.distanceSquared(new Point(0,0,0)), 0.00001,
                 "Point distanceSquared function gives wrong distance.");
+        // =============== Boundary Values Tests ==================
+        // T11: Test that distanceSquared on the same point returns 0
+        assertEquals(0, p1.distanceSquared(p1), 0.00001,
+                "Point distanceSquared on the same point gives wrong distance.");
     }
 
     /**
@@ -55,7 +64,7 @@ class PointTests {
     void distance() {
         // ============ Equivalence Partitions Tests ==============
         // T01: Test that the distance between two points is calculated correctly
-        assertEquals(Math.sqrt(14), p1.distance(Point.ZERO), 0.00001,
+        assertEquals(Math.sqrt(14), p1.distance(new Point(0,0,0)), 0.00001,
                 "Point distance function gives wrong distance.");
     }
 }

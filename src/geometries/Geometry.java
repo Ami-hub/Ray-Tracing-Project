@@ -3,11 +3,17 @@ package geometries;
 import primitives.Point;
 import primitives.Vector;
 
-public interface Geometry {
+/**
+ * Geometry interface represents three-dimensional objects system
+ *
+ * @author DW, AC
+ */
+public interface Geometry extends Intersectable {
     /**
-     * Gets the vector that is perpendicular to the geometry starting at the point
+     * Gets the vector that is perpendicular to the geometry starting at the point (called normal)
+     *
      * @param p a point on the geometry
-     * @return the vector that is perpendicular to the geometry starting at the point
+     * @return the normal vector
      */
-    public Vector getNormal(Point p);
+    Vector getNormal(Point p);
 }
