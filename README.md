@@ -6,7 +6,7 @@ There are also some great features, like anti-aliasing (smooth the edges of the 
 
 ## About Ray Tracing
 In 3D computer graphics, ray tracing is a technique for modeling light transport for use in a wide variety of rendering algorithms for generating digital images.<br />
-[Read more!](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)
+[Read more!](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
 
 
 ## Authors
