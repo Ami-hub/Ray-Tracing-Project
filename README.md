@@ -1,7 +1,7 @@
 # Ray-Tracing-Project
-A computer graphics project that made in the second year in JCT.
-This project is used to render geometries in a scene.
-Simply, you place the geometries, the camera and the light sources, and the program will render it to an image.
+A computer graphics project that made in the second year in JCT\n
+This project is used to render geometries in a scene.\n
+Simply, you place the geometries, the camera and the light sources and the program will render it to an image.\n
 There are also some great features, like anti-aliasing (smooth the edges of the geometry in the picture) and soft shadows.
 
 ## Authors
