@@ -5,7 +5,8 @@ Simply, you place the geometries, the camera and the light sources and the progr
 There are also some great features, like anti-aliasing (smooth the edges of the geometry in the picture) and soft shadows.
 
 ## About Ray Tracing
-[Read here!](https://en.wikipedia.org/wiki/Ray_tracing_(graphics))
+In 3D computer graphics, ray tracing is a technique for modeling light transport for use in a wide variety of rendering algorithms for generating digital images.
+[Read more!](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)
 
 
 ## Authors
