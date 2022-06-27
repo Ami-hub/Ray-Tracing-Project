@@ -9,6 +9,6 @@ There are also some great features, like anti-aliasing (smooth the edges of the 
 - [@Daniel](https://github.com/dan5000w)
 
 ## Exapmles
-![Ball](https://i.ibb.co/HrtpLhr/light-Sphere-All-Lights.png | width=350)
-![Triangles](https://i.ibb.co/C7JVCJ0/light-Triangles-Point.png | width=350)
-![Poker](https://i.ibb.co/G02k7ys/Poker-with-Anti-aliasing-with-soft-shadows.png | width=350)
+<img src="https://i.ibb.co/G02k7ys/Poker-with-Anti-aliasing-with-soft-shadows.png" width="350">
+<img src="https://i.ibb.co/HrtpLhr/light-Sphere-All-Lights.png" width="350">
+<img src="https://i.ibb.co/C7JVCJ0/light-Triangles-Point.png" width="350">
